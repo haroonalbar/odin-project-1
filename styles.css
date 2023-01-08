@@ -156,3 +156,12 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: rgb(144, 144, 144);
+    padding: 32px;
+}

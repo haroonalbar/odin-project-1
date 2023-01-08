@@ -73,10 +73,41 @@ body{
     justify-content: center;
     align-items: center;
     flex: 1;
-    background-color: gainsboro;
-    color: #1f2937;
+    background-color: gray;
+    color: #f9faf8;
     border-radius: .5rem;
 }
 /* .hero-right>div{
     margin: auto auto;
 } */
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.info>h2{
+    font: 36px 1000;
+    color: #1f2937;
+    margin: 32px 0;
+}
+.blocks{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 32px;
+    margin-bottom: 64px;
+}
+.cube{
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    border: 10px;
+    background-color: #1f2937;
+    border-color: #3882f6;
+    border-radius: .25rem;
+}
+.blocks>div>p{
+    color: #1f2937;
+}

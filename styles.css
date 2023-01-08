@@ -103,10 +103,9 @@ body{
     height: 150px;
     width: 150px;
     margin: 0 auto;
-    border: 10px;
-    background-color: #1f2937;
-    border-color: #3882f6;
-    border-radius: .25rem;
+    border: 5px solid #3882f6;
+    /* background-color: #1f2937; */
+    border-radius: .5rem;
 }
 .blocks>div>p{
     color: #1f2937;

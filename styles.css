@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Roboto&family=Tomorrow&display=swap');
+*{
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.mid{
+    width: 1060px;
+    margin: 0 auto;
+}
+.white{
+    color: #f9faf8;
+}
+.header-bg{
+    background-color: #1f2937;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    margin-bottom: 64px;
+}
+.header>div{
+    font-size: large;
+    font-weight: 1000;
+}
+.header>nav{
+    display: flex;
+    gap: 16px;
+}
+
+.hero{
+    display: flex;
+    /* gap: 16px; */
+}
+/* .hero-left{
+    display: flex;
+    flex-direction: column;
+} */
+.hero-left{
+    flex: 1;
+}
+.title{
+    font-size: 48px;
+    max-width: 400px;
+
+}
+.hero-left>p{
+    font-size: 18px;
+    color: #e5e7eb;
+    max-width: 450px;
+    margin-top: 0px;
+}
+.hero-left>button{
+    background-color: #3882f6;
+    border: 0;
+    padding: 8px 32px;
+    border-radius: .5rem;
+    font-weight: bold;
+}
+
+.hero-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: gainsboro;
+    color: #1f2937;
+}
+/* .hero-right>div{
+    margin: auto auto;
+} */

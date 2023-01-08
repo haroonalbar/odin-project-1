@@ -131,3 +131,28 @@ body{
     text-align: right;
     font-weight: 1000;
 }
+.call-parent{
+    padding: 64px 0;
+
+}
+.call{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    margin: auto auto;
+    padding: 64px 160px;
+    border-radius: 1rem;
+    /* width: 800px; */
+}
+.call-sign{
+    background-color: #3882f6;
+    padding: 8px 32px;
+    border-radius: .5rem;
+    font-weight: bold;
+    border: 2px solid white;
+}
+.sign-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
